@@ -72,6 +72,7 @@ export default function App() {
           </Route>
             
           <Route path="*" element={<NotFoundPage />} />
+          <Route path="admin" element={Admin} />
         </Routes>
 
       </UserContext.Provider>
